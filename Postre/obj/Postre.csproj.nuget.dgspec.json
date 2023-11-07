@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aleksejspavlovs/Documents/GitHub/my-public-repo/Postre/Postre.csproj": {}
+  },
+  "projects": {
+    "/Users/aleksejspavlovs/Documents/GitHub/my-public-repo/Postre/Postre.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aleksejspavlovs/Documents/GitHub/my-public-repo/Postre/Postre.csproj",
+        "projectName": "Postre",
+        "projectPath": "/Users/aleksejspavlovs/Documents/GitHub/my-public-repo/Postre/Postre.csproj",
+        "packagesPath": "/Users/aleksejspavlovs/.nuget/packages/",
+        "outputPath": "/Users/aleksejspavlovs/Documents/GitHub/my-public-repo/Postre/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aleksejspavlovs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vismaartifactory.jfrog.io/vismaartifactory/api/nuget/v3/easycruit-nuget-repository/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

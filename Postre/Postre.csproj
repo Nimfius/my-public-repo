@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.13">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+      <Content Remove="untitled folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="untitled folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="untitled folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="untitled folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Debug\net6.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Debug\net6.0\Postre.deps.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Debug\net6.0\Postre.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Release\net6.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Release\net6.0\Postre.deps.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\bin\Release\net6.0\Postre.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\obj\Debug\net6.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\obj\Postre.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="untitled folder\obj\Release\net6.0\staticwebassets.build.json" />
+    </ItemGroup>
+
+</Project>
